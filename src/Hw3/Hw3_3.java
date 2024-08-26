@@ -20,7 +20,7 @@ public class Hw3_3 {
 		outer:
 		while (numlotto.hasNextInt()) {
 			j = numlotto.nextInt();
-			if ( j > 10 || j < 0  ) {
+			if ( j >= 10 || j < 0  ) {
 				System.out.println("請重新輸入數字");
 				continue outer;
 			} else {
