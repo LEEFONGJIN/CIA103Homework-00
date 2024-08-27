@@ -1,4 +1,4 @@
-package Hw1;
+package hw1;
 
 public class Test4Numbers {
 

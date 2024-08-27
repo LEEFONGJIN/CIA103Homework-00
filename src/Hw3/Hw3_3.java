@@ -1,4 +1,4 @@
-package Hw3;
+package hw3;
 
 import java.util.Scanner;
 
@@ -43,7 +43,7 @@ public class Hw3_3 {
 				}
 				System.out.println();
 				System.out.println("可選取總數為"+countnum+"個");
-				System.out.println("已為您排除不想要的數字 如上");
+				System.out.println("已為您排除不想要的數字"+j+"如上");
 				outer2:
 				for(int k = 0; k < numberSelect.length ; k++ ) {					
 					numberSelect[k]=(int)(Math.random()*49+1);
