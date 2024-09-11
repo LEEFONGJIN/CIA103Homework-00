@@ -17,11 +17,8 @@ public class ObjectWrite {
 		Cat A4 = new Cat("凱蒂");
 		File f1 = new File("c:\\data");
 		File f2 = new File("c:\\data\\Object.ser");
-		Object[] animal = new Object[4];
-		animal[0]=A1;
-		animal[1]=A2;
-		animal[2]=A3;
-		animal[3]=A4;
+		Object[] animal = {A1,A2,A3,A4};
+		
 		if(!f1.exists()) {
 			f1.mkdir();
 		}

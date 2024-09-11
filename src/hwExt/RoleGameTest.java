@@ -18,7 +18,7 @@ public class RoleGameTest {
 		
 		archer.setAttack(new Shoot());
 		archer.setMove(new Shift());
-		archer.setDefend(new ShieldBlock());
+		archer.setDefend(new Dodge());
 		
 		archer.attack();
 		archer.move();
